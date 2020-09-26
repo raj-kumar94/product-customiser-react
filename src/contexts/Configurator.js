@@ -1,5 +1,6 @@
 import React, { createContext, Component } from 'react';
-import productData from "../utils/productDummyData.json";
+// import productData from "../utils/productDummyData.json";
+import productData from "../utils/productDummyData2.json";
 
 export const ConfiguratorContext = createContext();
 
@@ -101,7 +102,7 @@ class ConfiguratorContextProvider extends Component {
             // this.setState({currentLayerColors});
 
             const { sliderImages } = this.generateViewImagesArr(this.state.productData, this.state.configObject, this.state.currentLayerColors);
-            console.log({sliderImages, currentLayerColors})
+            // console.log({sliderImages, currentLayerColors})
             await this.setState({
                 sliderImages:sliderImages, 
                 currentLayerColors: currentLayerColors

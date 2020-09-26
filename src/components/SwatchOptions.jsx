@@ -10,7 +10,7 @@ function SwatchOptionProperties(props) {
         <div className="swatch clearfix" data-option-index="0">
             <input id={property._id} type="radio" name="option-0" aria-label={property.property_obj.title} tabIndex={tabIndex} value={property.property_obj.title} />
             <div tabIndex={tabIndex} data-property_title={property.property_obj.title} data-layer_title={props.layer_title} data-id={property._id}
-                data-layer-id="5f0bf602961bfa8879f72f5b" data-property-id={property._id}
+                data-layer-id={property._id} data-property-id={property._id}
                 className="swatch-element color outOfStock" onClick={props.handleSwatchClick}>
                 <label data-image={property.property_obj.icon}
                     htmlFor={property._id}
@@ -20,7 +20,7 @@ function SwatchOptionProperties(props) {
                         aria-label="sold out" alt="sold out"/>
                 </label>
             </div>
-            <input id="5f0bf66c961bfa8879f72fb2" type="radio" name="option-0" aria-label="Bordeaux" tabIndex={tabIndex} value="Bordeaux" />
+            <input type="radio" name={`option-${tabIndex}`} aria-label={property.property_obj.title} tabIndex={tabIndex} value={property.property_obj.title} />
         </div>
     )
 }
@@ -30,27 +30,44 @@ export class SwatchOptions extends Component {
 
     static contextType = ConfiguratorContext;
 
+    state = {
+        display: 'none'
+    }
+
     handleSwatchClick = (event) => {
         const layer_title = event.currentTarget.dataset.layer_title;
         const property_title = event.currentTarget.dataset.property_title;
-        console.log({layer_title, property_title});
         this.context.handleCurrentLayerColorChange(layer_title, property_title);
     }
+
+    toggleAccordion = () => {
+        const display = this.state.display;
+        this.setState({display: display === 'none' ? 'block': 'none'});
+    }
+
 
     render() {
 
         const tabIndex = this.props.tabIndex || 0;
         const layer = this.props.layer;
+        const display = this.state.display;
+
 
         return (
-            <div className="prod-custom-accordion-wrapper">
-                <div className="main-accordion" data-layer={layer.layer_obj.title}>
-                    <h1 className="prod-accordion-title">{layer.layer_obj.title}<span className="level-one-icon icon-plus"></span><span
-                        className="level-one-icon icon-minus"></span><span className="subtitle-block"
-                            style={{ visibility: "visible" }}>Farbe: Bordeaux</span></h1>
+            // <div className="prod-custom-accordion-wrapper">
+                <div className="main-accordion" data-layer={layer.layer_obj.title} onClick={this.toggleAccordion}>
+                    <h1 className="prod-accordion-title">{layer.layer_obj.title}
+                        {
+                        display === 'block' ? <span className="level-one-icon icon-minus"></span>
+                        : <span className="level-one-icon icon-plus" style={{ display: 'inline-block' }}></span> 
+                        }
+                        {/* <span className="level-one-icon icon-plus"></span>
+                        <span className="level-one-icon icon-minus"></span> */}
+                        <span className="subtitle-block" style={{ visibility: 'visible' }}>Farbe: Bordeaux</span>
+                    </h1>
                     <div className="prod-accordion-content" name={`dropdown_custom_${layer.layer_obj._od}`}
                         id={`dropdown_custom_${layer.layer_obj._od}`} data-layer-id={layer.layer_obj._od}
-                        style={{ display: 'block' }}>
+                        style={{ display: display }}>
                         <div className="swatch_options">
 
                             {/* repetitive block */}
@@ -66,7 +83,7 @@ export class SwatchOptions extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            // </div>
         )
     }
 }

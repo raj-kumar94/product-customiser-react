@@ -5,7 +5,7 @@ import useImage from 'use-image';
 // the first very simple and recommended way:
 const LoadImageFromURL = (props) => {
     const [image] = useImage(props.src);
-    return <KonvaImage image={image} width={props.containerOffsetWidth} height={props.containerOffsetHeight} />;
+    return <KonvaImage image={image} width={props.containerOffsetWidth} height={props.containerOffsetHeight-100} x={20} y={50} />;
 };
 
 

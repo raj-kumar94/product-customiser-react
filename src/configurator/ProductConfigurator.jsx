@@ -5,9 +5,9 @@ import ConfiguratorContextProvider from '../contexts/Configurator';
 export class ProductConfigurator extends Component {
     render() {
         return (
-            <ConfiguratorContextProvider>
+            // <ConfiguratorContextProvider>
                 <ImageConfigurator />
-            </ConfiguratorContextProvider>
+            // </ConfiguratorContextProvider>
         )
     }
 }

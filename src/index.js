@@ -6,17 +6,35 @@ import "slick-carousel/slick/slick-theme.css";
 import ProductConfigurator from './configurator/ProductConfigurator';
 import ConfiguratorOptions from './configurator/ConfiguratorOptions';
 import * as serviceWorker from './serviceWorker';
+import ConfiguratorContextProvider from './contexts/Configurator';
+
+const CUSTOMISER_SLIDER_SECTION = document.getElementById('customiser-slider-section');
+const CUSTOMISER_OPTIONS_SECTION = document.getElementById('customiser-options-section');
+
+
+const ProductConfiguratorPortal = () => ReactDOM.createPortal(<ProductConfigurator />, CUSTOMISER_SLIDER_SECTION);
+const ConfiguratorOptionsPortal = () => ReactDOM.createPortal(<ConfiguratorOptions />, CUSTOMISER_OPTIONS_SECTION);
+class Container extends React.Component {
+  render() {
+    return <>
+    <ConfiguratorContextProvider>
+      <ProductConfiguratorPortal />
+      <ConfiguratorOptionsPortal />
+    </ConfiguratorContextProvider>
+    </>
+  }
+}
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <ProductConfigurator />
+//   </React.StrictMode>,
+//   document.getElementById('customiser-slider-section')
+// );
 
 ReactDOM.render(
   <React.StrictMode>
-    <ProductConfigurator />
-  </React.StrictMode>,
-  document.getElementById('customiser-slider-section')
-);
-
-ReactDOM.render(
-  <React.StrictMode>
-    <ConfiguratorOptions />
+    <Container />
   </React.StrictMode>,
   document.getElementById('customiser-options-section')
 );

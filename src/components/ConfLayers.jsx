@@ -12,9 +12,13 @@ class ConfLayers extends Component {
         const configurations = productData.product.configuration;
         
         return (
-            configurations.layer.map( (layer, index) => {
-                return <SwatchOptions key={`layer-${index}`} tabIndex={index} layer={layer} />
-            })
+            <div className="prod-custom-accordion-wrapper">
+                {
+                configurations.layer.map( (layer, index) => {
+                    return <SwatchOptions key={`layer-${index}`} tabIndex={index} layer={layer} />
+                })
+                }
+            </div>
         )
     }
 }

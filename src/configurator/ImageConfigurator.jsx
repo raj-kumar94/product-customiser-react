@@ -15,30 +15,24 @@ class ImageConfigurator extends Component {
 
     constructor(props) {
         super(props);
-        const { containerOffsetHeight, containerOffsetWidth } = this.getContainerDimenstions();
+        const { containerOffsetHeight, containerOffsetWidth, containerWidth, conatainerHeight } = this.getContainerDimenstions();
         
         this.state = {
-            images: [
-                "https://i.ibb.co/7CnPYHV/70c40127-3e61-fe0b-4526-7a8578f232e7.png",
-                "https://i.ibb.co/2WT0yZv/82286b9a-1d94-7ad5-ae20-0b94e7697aa0.png",
-                "https://i.ibb.co/YjYppvn/5a2d9c2f-f5fa-99df-e71b-b14f178d8ba7.png",
-            ],
-            selectedImages: [
-                "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/fe6eb34f-0aaa-d885-7821-7696aefc506f.png",
-                "https://i.ibb.co/7CnPYHV/70c40127-3e61-fe0b-4526-7a8578f232e7.png",
-                "https://i.ibb.co/2WT0yZv/82286b9a-1d94-7ad5-ae20-0b94e7697aa0.png"
-            ],
-            showCanvas: false,
             containerOffsetHeight,
             containerOffsetWidth,
+            containerWidth, 
+            conatainerHeight,
             slides: [],
             configObject: {}
         }
     }
 
     getContainerDimenstions = () => {
-        let containerOffsetWidth = document.querySelector('.custom_container_creator').offsetWidth;
-        let containerOffsetHeight = document.querySelector('.custom_container_creator').offsetHeight;
+        let containerOffsetWidth = document.querySelector('.custom_container_creator_nine').offsetWidth-0;
+        let containerOffsetHeight = document.querySelector('.custom_container_creator_nine').offsetHeight-0;
+        let containerWidth = containerOffsetWidth;
+        let conatainerHeight = containerOffsetHeight;
+
         let currentRatio = containerOffsetWidth/containerOffsetHeight;
 
         if(currentRatio > this.ratio) {
@@ -47,7 +41,7 @@ class ImageConfigurator extends Component {
             containerOffsetWidth = Math.min(containerOffsetWidth,containerOffsetHeight);
             containerOffsetHeight = containerOffsetWidth / this.ratio;
         }
-        return { containerOffsetHeight, containerOffsetWidth };
+        return { containerOffsetHeight, containerOffsetWidth, containerWidth, conatainerHeight };
     }
 
     updateDimensions = () => {
@@ -56,39 +50,48 @@ class ImageConfigurator extends Component {
     };
 
     componentDidMount() {
+        this.setState({sliderImages: this.context.sliderImages, configObject: this.context.configObject});
+
         window.addEventListener('resize', this.updateDimensions);
         console.log("componentDidMount called");
 
         // forcing browser to load all images
+        let downloaded = {};
+        for(let image of this.context.sliderImages) {
+            for(let img_ of image) {
+                const img = new Image();
+                img.src = img_;
+                downloaded[img_] = 1;
+            }
+        }
+
         let images = this.context.productData && this.context.productData.images ? this.context.productData.images: [];
-        images.forEach((picture) => {
+        for(let picture of images) {
+            if(downloaded[picture.url]) {
+                continue;
+            }
             const img = new Image();
             img.src = picture.url;
-        });
-
-        // const that = this;
-        // setInterval(() => {
-        //     console.log({ppppp: that.context.sliderImages});
-        // }, 5000);
+        }
     }
 
     componentWillUnmount() {
         window.removeEventListener('resize', this.updateDimensions);
     }
 
-    componentWillMount() {
-        this.setState({sliderImages: this.context.sliderImages, configObject: this.context.configObject});
-    }
+    // componentWillMount() {
+    //     this.setState({sliderImages: this.context.sliderImages, configObject: this.context.configObject});
+    // }
 
     render() {
         // console.log('rendering...');
 
-        const { containerOffsetWidth, containerOffsetHeight } = this.state;
+        const { containerOffsetWidth, containerOffsetHeight, containerWidth, conatainerHeight } = this.state;
         const { sliderImages } = this.context;
-        console.log({sliderImages});
+        // console.log({sliderImages});
 
         var settings = {
-            dots: false,
+            dots: true,
             infinite: true,
             speed: 500,
             slidesToShow: 1,
@@ -107,7 +110,7 @@ class ImageConfigurator extends Component {
                 {
                     sliderImages.map( (images, index) => {
                         return <div key={`views-${index}`}>
-                                <Stage width={containerOffsetWidth} height={containerOffsetHeight}>
+                                <Stage width={containerWidth} height={conatainerHeight}>
                                     {
                                         images.map((src, index) => {
                                             return (

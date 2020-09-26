@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import ConfiguratorContextProvider from '../contexts/Configurator';
+// import ConfiguratorContextProvider from '../contexts/Configurator';
 import ConfLayers from "../components/ConfLayers";
 
 class ConfiguratorOptions extends Component {
     render() {
         return (
-            <ConfiguratorContextProvider>
+            // <ConfiguratorContextProvider>
             <div>
                 <h1>Options here</h1>
+                <ConfLayers />
             </div>
-            <ConfLayers />
-            </ConfiguratorContextProvider>
+            // </ConfiguratorContextProvider>
         )
     }
 }
