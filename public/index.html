@@ -1,43 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+	<title>Test Product</title>
+	<link href="https://cdn.shopify.com/s/files/1/0306/8693/7223/t/69/assets/styles.scss.css?v=7662533806760565157"
+		rel="stylesheet" type="text/css" media="all" />
+	<link
+		href="https://cdn.shopify.com/s/files/1/0306/8693/7223/t/69/assets/custom-style.scss.css?v=10018778431721280488"
+		rel="stylesheet" type="text/css" media="all" />
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+	<!--     /*! Jquery - 3.4.1 */ -->
+	<!-- <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+	integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" /> -->
+	
+	<style>
+		.main_nav div.logo,
+		.sticky_nav .main_nav div.logo {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		div.logo img {
+			max-width: 140px;
+		}
+		div.logo img {
+			margin: 0 auto;
+		}
+		.nav {
+			width: 42%;
+			float: left;
+		}
+
+		.nav ul.menu {
+			padding-top: 6px;
+			padding-bottom: 0px;
+		}
+
+		.sticky_nav ul.menu {
+			padding-top: 3px;
+			padding-bottom: 0px;
+		}
+
+	</style>
+</head>
+
+<body class="product-configurator-template">
+	<div id="shopify-section-header" class="shopify-section header-section">
+		<header class="feature_image  custom_header_wrapper">
+			<div class="header  header-fixed--true header-background--solid">
+				<div class="top_bar tobbar_wrapper clearfix">
+					<div class="container full-width--true">
+						<div class="one-third columns">
+							<div class="content-block">
+								<p class="text-align-left">Example text</p>
+							</div>
+						</div>
+						<div class="one-third columns">
+							<div class="content-block"> <a class="text-align-center header-topbar-link"
+									href="/pages/3-an-wohltatige-organisationen">
+									<p class="text-align-center">Example text 2</p>
+								</a></div>
+						</div>
+						<div class="one-third columns">
+
+						</div>
+					</div>
+				</div>
+				<div class="main_nav_wrapper">
+					<div
+						class="main_nav clearfix menu-position--inline logo-align--center logo-position--center search-enabled--false">
+						<div class="nav clearfix">
+							<ul class="menu align_left clearfix">
+								<li><a href="/collections" class="  dropdown_link" data-dropdown-rel="shop">Shop <span
+											class="icon-down-arrow"></span></a></li>
+								<li><a href="/pages/about-us" class="  dropdown_link" data-dropdown-rel="about-us">About
+										us <span class="icon-down-arrow"></span></a></li>
+								<li><a href="/pages/handmade-in-germany" class="  dropdown_link"
+										data-dropdown-rel="Contact us">Contact us <span
+											class="icon-down-arrow"></span></a></li>
+							</ul>
+						</div>
+						<div class="logo logo--image">
+							<a href="#" title="Title">
+								<!-- <img src="#" class="primary_logo lazyload" alt="Title" /> -->
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<div class="body-container">
+		<div id="shopify-section-product-configurator" class="shopify-section product-template">
+			<div class="container p-0 full-width--true main content product-configurator-wrapper product-name--product-test">
+				<div class="product clearfix">
+					<div class="product__container">
+						<div class="product-5398676275363">
+							<div class="section product_section product_image_with_description clearfix js-product_section ">
+								<div class="nine columns medium-down--one-whole product-image-section alpha">
+									<div class="custom_container_creator">
+										<div id="customiser-slider-section" style="width: 700px; height: 500px;"></div>
+									</div>
+								</div>
+								<div
+									class="six columns offset-by-one medium-down--one-whole product-description-wrapper  omega">
+									<h1 class="product_name">Test Product</h1>
+
+									<div class="description bottom product-desc-wrapper" id="customiser-options-section">
+
+										<!-- TODO: options here -->
+
+									</div>
+									<div class="shopify-reviews reviewsVisibility--false">
+										<div id="shopify-product-reviews"></div>
+									</div>
+									<div class="meta"></div>
+								</div>
+							</div>
+							<div id="viewGrid">
+								<div id="viewGrid_thumb_0"></div>
+								<div id="viewGrid_thumb_1"></div>
+								<div id="viewGrid_thumb_2"></div>
+								<div id="viewGrid_thumb_3"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
 </html>

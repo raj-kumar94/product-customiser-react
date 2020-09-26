@@ -1,0 +1,1505 @@
+{
+    "product": {
+        "configuration": {
+            "layer_order": [],
+            "layer": [
+                {
+                    "properties": [
+                        {
+                            "out_of_stock": true,
+                            "views": [
+                                {
+                                    "_id": "5f0bf691961bfa8879f72fb5",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/71b056db-fd97-7421-3599-ffa60c758367.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/71b056db-fd97-7421-3599-ffa60c758367.png"
+                                },
+                                {
+                                    "_id": "5f0bf69c961bfa8879f72fb6",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6439f1d4-17b8-cc87-2a94-c91184cd27b2.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6439f1d4-17b8-cc87-2a94-c91184cd27b2.png"
+                                },
+                                {
+                                    "_id": "5f0c034e961bfa8879f7306f",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/05f58530-7e7e-ef7f-0fb2-0c8fdbf8ac47.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/05f58530-7e7e-ef7f-0fb2-0c8fdbf8ac47.png"
+                                }
+                            ],
+                            "_id": "5f0bf663961bfa8879f72fb1",
+                            "id": "5f0b589c961bfa8879f72f51",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b589c961bfa8879f72f51",
+                                "title": "Blau",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/91891eaf-3c17-e536-3bda-b2af562f97da.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b17a0d60-65bc-02d5-44cc-6f808ff12a64.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bf6a4961bfa8879f72fd4",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/82286b9a-1d94-7ad5-ae20-0b94e7697aa0.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/82286b9a-1d94-7ad5-ae20-0b94e7697aa0.png"
+                                },
+                                {
+                                    "_id": "5f0bf6ab961bfa8879f72fd5",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7aaf98d3-ba4c-6ab6-2cc0-8941d25dc6ea.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7aaf98d3-ba4c-6ab6-2cc0-8941d25dc6ea.png"
+                                },
+                                {
+                                    "_id": "5f0c0355961bfa8879f73070",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d3d6552c-31b5-773f-e9f3-4f71e2b5b29c.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d3d6552c-31b5-773f-e9f3-4f71e2b5b29c.png"
+                                }
+                            ],
+                            "_id": "5f0bf66c961bfa8879f72fb2",
+                            "id": "5f0b58ab961bfa8879f72f52",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b58ab961bfa8879f72f52",
+                                "title": "Bordeaux",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a7cff99c-5081-d017-1b2b-4695bdd8f581.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a7cff99c-5081-d017-1b2b-4695bdd8f581.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bf6e3961bfa8879f72fd6",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0c118467-156a-9d60-6752-258dcf8cb031.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0c118467-156a-9d60-6752-258dcf8cb031.png"
+                                },
+                                {
+                                    "_id": "5f0bf701961bfa8879f72fd7",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7cb322f7-f5e0-2713-b4fb-5aff128e7779.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7cb322f7-f5e0-2713-b4fb-5aff128e7779.png"
+                                },
+                                {
+                                    "_id": "5f0c035c961bfa8879f73071",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4c67e38b-2e59-6285-fed6-ccca493deda8.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4c67e38b-2e59-6285-fed6-ccca493deda8.png"
+                                }
+                            ],
+                            "_id": "5f0bf677961bfa8879f72fb3",
+                            "id": "5f0b58c1961bfa8879f72f53",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b58c1961bfa8879f72f53",
+                                "title": "Sand",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/031cd543-5d30-0f86-b9c5-4eed811bf1c4.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/031cd543-5d30-0f86-b9c5-4eed811bf1c4.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bf70a961bfa8879f72fd8",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/8ad3613a-cf09-2e28-601a-a078aeae3837.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/8ad3613a-cf09-2e28-601a-a078aeae3837.png"
+                                },
+                                {
+                                    "_id": "5f0bf713961bfa8879f72fd9",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a29a0f6b-65be-3667-42f6-911e42e1a821.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a29a0f6b-65be-3667-42f6-911e42e1a821.png"
+                                },
+                                {
+                                    "_id": "5f0c0364961bfa8879f73072",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/62fe271c-db0a-551a-f8e7-048f58c80496.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/62fe271c-db0a-551a-f8e7-048f58c80496.png"
+                                }
+                            ],
+                            "_id": "5f0bf683961bfa8879f72fb4",
+                            "id": "5f0b58d4961bfa8879f72f54",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b58d4961bfa8879f72f54",
+                                "title": "Schwarz",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7d74e335-bac2-2177-da17-ba5fb37c3462.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7d74e335-bac2-2177-da17-ba5fb37c3462.png"
+                        }
+                    ],
+                    "_id": "5f0bf602961bfa8879f72f5b",
+                    "id": "5f0b5885961bfa8879f72f50",
+                    "layer_obj": {
+                        "archieve": false,
+                        "_id": "5f0b5885961bfa8879f72f50",
+                        "title": "Torso",
+                        "store_url": "example.com",
+                        "__v": 0
+                    }
+                },
+                {
+                    "properties": [
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bf8cb961bfa8879f73030",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/70c40127-3e61-fe0b-4526-7a8578f232e7.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/70c40127-3e61-fe0b-4526-7a8578f232e7.png"
+                                },
+                                {
+                                    "_id": "5f0bf8d9961bfa8879f73031",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b06cfbb8-a324-598c-69dd-825e9dd73b09.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b06cfbb8-a324-598c-69dd-825e9dd73b09.png"
+                                },
+                                {
+                                    "_id": "5f0c0206961bfa8879f7304b",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b769f479-4c4c-4c89-3f88-1f3f50f3b647.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b769f479-4c4c-4c89-3f88-1f3f50f3b647.png"
+                                }
+                            ],
+                            "_id": "5f0bf8a4961bfa8879f7302c",
+                            "id": "5f0b589c961bfa8879f72f51",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b589c961bfa8879f72f51",
+                                "title": "Blau",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/91891eaf-3c17-e536-3bda-b2af562f97da.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b17a0d60-65bc-02d5-44cc-6f808ff12a64.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bf8e6961bfa8879f73032",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6233f9ee-40b4-ceb4-c261-4a96761c7111.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6233f9ee-40b4-ceb4-c261-4a96761c7111.png"
+                                },
+                                {
+                                    "_id": "5f0bf8f4961bfa8879f73033",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/93bc168a-ddb6-4949-d2db-03edd2d08451.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/93bc168a-ddb6-4949-d2db-03edd2d08451.png"
+                                },
+                                {
+                                    "_id": "5f0c0211961bfa8879f7304c",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/edd11c1e-34db-25d4-dd38-212dc120eebf.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/edd11c1e-34db-25d4-dd38-212dc120eebf.png"
+                                }
+                            ],
+                            "_id": "5f0bf8ac961bfa8879f7302d",
+                            "id": "5f0b58ab961bfa8879f72f52",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b58ab961bfa8879f72f52",
+                                "title": "Bordeaux",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a7cff99c-5081-d017-1b2b-4695bdd8f581.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a7cff99c-5081-d017-1b2b-4695bdd8f581.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bf90c961bfa8879f73034",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/ad87a302-2933-154b-372c-b7c340d1bd2b.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/ad87a302-2933-154b-372c-b7c340d1bd2b.png"
+                                },
+                                {
+                                    "_id": "5f0bf913961bfa8879f73035",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0d432e4f-2854-c6c0-ca68-9f1e42b1e889.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0d432e4f-2854-c6c0-ca68-9f1e42b1e889.png"
+                                },
+                                {
+                                    "_id": "5f0c021a961bfa8879f7306a",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/52989162-93d2-29a5-19d9-1e767690363a.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/52989162-93d2-29a5-19d9-1e767690363a.png"
+                                }
+                            ],
+                            "_id": "5f0bf8b5961bfa8879f7302e",
+                            "id": "5f0b58c1961bfa8879f72f53",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b58c1961bfa8879f72f53",
+                                "title": "Sand",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/031cd543-5d30-0f86-b9c5-4eed811bf1c4.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/031cd543-5d30-0f86-b9c5-4eed811bf1c4.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bf91d961bfa8879f73036",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d7573338-bb13-df99-8da5-25dd3fe1ab89.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d7573338-bb13-df99-8da5-25dd3fe1ab89.png"
+                                },
+                                {
+                                    "_id": "5f0bf92f961bfa8879f73037",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f8ac1685-f77c-a892-a131-1e8abd50a37c.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f8ac1685-f77c-a892-a131-1e8abd50a37c.png"
+                                },
+                                {
+                                    "_id": "5f0c0223961bfa8879f7306b",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4a019c41-3d2f-e9b9-1fd1-300259d1f0b7.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4a019c41-3d2f-e9b9-1fd1-300259d1f0b7.png"
+                                }
+                            ],
+                            "_id": "5f0bf8c0961bfa8879f7302f",
+                            "id": "5f0b58d4961bfa8879f72f54",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b58d4961bfa8879f72f54",
+                                "title": "Schwarz",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7d74e335-bac2-2177-da17-ba5fb37c3462.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7d74e335-bac2-2177-da17-ba5fb37c3462.png"
+                        }
+                    ],
+                    "_id": "5f0bf625961bfa8879f72f5c",
+                    "id": "5f0b5864961bfa8879f72f4e",
+                    "layer_obj": {
+                        "archieve": false,
+                        "_id": "5f0b5864961bfa8879f72f4e",
+                        "title": "Band",
+                        "store_url": "example.com",
+                        "__v": 0
+                    }
+                },
+                {
+                    "properties": [
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bfbc2961bfa8879f7303b",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/fe6eb34f-0aaa-d885-7821-7696aefc506f.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/fe6eb34f-0aaa-d885-7821-7696aefc506f.png"
+                                },
+                                {
+                                    "_id": "5f0bfbd0961bfa8879f7303c",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/41cac2e3-c4e0-689b-6ba7-29e36e2c2eda.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/41cac2e3-c4e0-689b-6ba7-29e36e2c2eda.png"
+                                },
+                                {
+                                    "_id": "5f0c02e5961bfa8879f7306c",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/49fccf2a-a0a8-6f3e-eafe-7eb6ae0169f7.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/49fccf2a-a0a8-6f3e-eafe-7eb6ae0169f7.png"
+                                }
+                            ],
+                            "_id": "5f0bfb69961bfa8879f73038",
+                            "id": "5f0b58e5961bfa8879f72f55",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b58e5961bfa8879f72f55",
+                                "title": "Beige",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/e4a260a9-c371-6089-1df6-b2ea495a1c82.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/e4a260a9-c371-6089-1df6-b2ea495a1c82.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bfbdc961bfa8879f7303d",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/9f23bb5f-140d-ed9c-ce4e-4352f830b007.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/9f23bb5f-140d-ed9c-ce4e-4352f830b007.png"
+                                },
+                                {
+                                    "_id": "5f0bfbe9961bfa8879f7303e",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b9ac0a33-2c9e-64b4-dedb-e2de18dd58a2.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b9ac0a33-2c9e-64b4-dedb-e2de18dd58a2.png"
+                                },
+                                {
+                                    "_id": "5f0c02f5961bfa8879f7306d",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/946e7f73-33ee-8a3d-4eb1-1905953ccd81.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/946e7f73-33ee-8a3d-4eb1-1905953ccd81.png"
+                                }
+                            ],
+                            "_id": "5f0bfb73961bfa8879f73039",
+                            "id": "5f0b58fd961bfa8879f72f56",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b58fd961bfa8879f72f56",
+                                "title": "Braun",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/3a92d32f-aa19-f5b4-b523-d138b573eb1d.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/3a92d32f-aa19-f5b4-b523-d138b573eb1d.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bfbf2961bfa8879f7303f",
+                                    "id": "5f0b583a961bfa8879f72f4c",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b583a961bfa8879f72f4c",
+                                        "title": "Front",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/5a2d9c2f-f5fa-99df-e71b-b14f178d8ba7.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/5a2d9c2f-f5fa-99df-e71b-b14f178d8ba7.png"
+                                },
+                                {
+                                    "_id": "5f0bfbfb961bfa8879f73040",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/e6a84f9b-8960-9570-23fe-e1cf49f230ab.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/e6a84f9b-8960-9570-23fe-e1cf49f230ab.png"
+                                },
+                                {
+                                    "_id": "5f0c02fd961bfa8879f7306e",
+                                    "id": "5f0c01a7961bfa8879f73049",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0c01a7961bfa8879f73049",
+                                        "title": "Obenzu",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d91ae868-de4a-e5c1-b753-5405ebcfd7c9.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d91ae868-de4a-e5c1-b753-5405ebcfd7c9.png"
+                                }
+                            ],
+                            "_id": "5f0bfbb2961bfa8879f7303a",
+                            "id": "5f0b58d4961bfa8879f72f54",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b58d4961bfa8879f72f54",
+                                "title": "Schwarz",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7d74e335-bac2-2177-da17-ba5fb37c3462.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7d74e335-bac2-2177-da17-ba5fb37c3462.png"
+                        }
+                    ],
+                    "_id": "5f0bf633961bfa8879f72f5d",
+                    "id": "5f0b5874961bfa8879f72f4f",
+                    "layer_obj": {
+                        "archieve": false,
+                        "_id": "5f0b5874961bfa8879f72f4f",
+                        "title": "Leder",
+                        "store_url": "example.com",
+                        "__v": 0
+                    }
+                },
+                {
+                    "properties": [
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bfdba961bfa8879f73045",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/85623119-24a5-6833-5b13-1951bd5b390f.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/85623119-24a5-6833-5b13-1951bd5b390f.png"
+                                }
+                            ],
+                            "_id": "5f0bfd76961bfa8879f73041",
+                            "id": "5f0b5942961bfa8879f72f59",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b5942961bfa8879f72f59",
+                                "title": "Anthrazit",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/8c21f9f6-a605-fabc-5280-0beaf507e645.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/8c21f9f6-a605-fabc-5280-0beaf507e645.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bfdc1961bfa8879f73046",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b10d7d6e-a3f8-2bf6-c30a-818d76e93255.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b10d7d6e-a3f8-2bf6-c30a-818d76e93255.png"
+                                }
+                            ],
+                            "_id": "5f0bfd7d961bfa8879f73042",
+                            "id": "5f0b589c961bfa8879f72f51",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b589c961bfa8879f72f51",
+                                "title": "Blau",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/91891eaf-3c17-e536-3bda-b2af562f97da.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b17a0d60-65bc-02d5-44cc-6f808ff12a64.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bfde8961bfa8879f73047",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f21220e4-e5cc-0d32-465e-5691c7893ef1.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f21220e4-e5cc-0d32-465e-5691c7893ef1.png"
+                                }
+                            ],
+                            "_id": "5f0bfd86961bfa8879f73043",
+                            "id": "5f0b5930961bfa8879f72f58",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b5930961bfa8879f72f58",
+                                "title": "Gelb",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/edd8c90e-df8a-b0e2-8294-53f67f707e9d.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/edd8c90e-df8a-b0e2-8294-53f67f707e9d.png"
+                        },
+                        {
+                            "out_of_stock": false,
+                            "views": [
+                                {
+                                    "_id": "5f0bfdf7961bfa8879f73048",
+                                    "id": "5f0b584e961bfa8879f72f4d",
+                                    "view_obj": {
+                                        "archieve": false,
+                                        "_id": "5f0b584e961bfa8879f72f4d",
+                                        "title": "Oben",
+                                        "store_url": "example.com",
+                                        "__v": 0
+                                    },
+                                    "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4651584e-b865-5428-d898-6a407c2cae0f.png",
+                                    "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4651584e-b865-5428-d898-6a407c2cae0f.png"
+                                }
+                            ],
+                            "_id": "5f0bfd8f961bfa8879f73044",
+                            "id": "5f0b5921961bfa8879f72f57",
+                            "property_obj": {
+                                "archieve": false,
+                                "_id": "5f0b5921961bfa8879f72f57",
+                                "title": "Rot",
+                                "store_url": "example.com",
+                                "__v": 0,
+                                "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/12b9008b-cbe3-260d-5aee-f867d6a6e43e.png"
+                            },
+                            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/12b9008b-cbe3-260d-5aee-f867d6a6e43e.png"
+                        }
+                    ],
+                    "_id": "5f0bf63f961bfa8879f72fb0",
+                    "id": "5f0bf5ec961bfa8879f72f5a",
+                    "layer_obj": {
+                        "archieve": false,
+                        "_id": "5f0bf5ec961bfa8879f72f5a",
+                        "title": "Innen",
+                        "store_url": "example.com",
+                        "__v": 0
+                    }
+                }
+            ]
+        },
+        "metafields": {
+            "id": "14379710021795",
+            "namespace": "customiser",
+            "key": "views",
+            "value": "3",
+            "value_type": "integer",
+            "owner_id": "5288846655651",
+            "owner_resource": "product"
+        },
+        "customised_product": true,
+        "published_status": "draft",
+        "tags": [
+            "test-product"
+        ],
+        "inventory_quantity": 0,
+        "page_redirected": false,
+        "collection_ids": [],
+        "deleted": false,
+        "_id": "5f0b4d9a961bfa8879f72c01",
+        "id": "5288846655651",
+        "store_url": "example.com",
+        "__v": 0,
+        "body_html": "<div class=\"prod-accordion-wrapper\">\n<div class=\"main-accordion\">\n<h1 class=\"prod-accordion-title\"></h1>\n</div>\n<div class=\"main-accordion\">\n<div class=\"prod-accordion-content\"></div>\n</div>\n</div>\n<div class=\"product-content-description-with-tabs\">\n<ul class=\"tabs cc-tabs\">\n<li><a class=\"active\" href=\"#tab1\">Beschreibung</a></li>\n<li><a href=\"#tab2\">Features</a></li>\n<li><a href=\"#tab3\">Details</a></li>\n</ul>\n<ul class=\"tabs-content\">\n<li class=\"active\" id=\"tab1\">Reisetasche und Kulturbeutel werden aus wasserfestem Canvas und edlem Leder in Deutschland gefertigt. Sie bestechen durch hochwertiges Design und können problemlos als Hangepäck mitgenommen werden. Als Set sind sie perfekt für Deinen nächsten Trip.</li>\n<li id=\"tab2\">\n<ul>\n<li>Wasserabweisend</li>\n<li>Canvas aus 100% Baumwolle</li>\n<li>Handgepäcktauglich</li>\n<li>Premium YKK-Reißverschluss</li>\n<li>Washbag mit 6 Innenfächern</li>\n<li>Inkl. Schuh-/Wäschebeutel</li>\n<li>Handgefertigt in Deutschland</li>\n</ul>\n</li>\n<li id=\"tab3\">\n<ul>\n<li>Maße Weekender: L 55cm x B 28cm x H 28cm</li>\n<li>Maße Washbag: L 27cm x B 15,5cm x H 13cm</li>\n<li>Volumen Weekender: über 43l</li>\n<li>Volumen Washbag: über 5,5l</li>\n<li>Gewicht Weekender: 1,3kg<br>\n</li>\n</ul>\n</li>\n</ul>\n</div>",
+        "created_at": "2020-06-15T11:58:17.000Z",
+        "handle": "product-configurator-test",
+        "image": {
+            "id": 17358462910627,
+            "product_id": 5288846655651,
+            "position": 1,
+            "created_at": "2020-06-15T13:58:21+02:00",
+            "updated_at": "2020-07-05T17:05:26+02:00",
+            "alt": "Navy Blue--skip",
+            "width": 2000,
+            "height": 2000,
+            "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/01_TravellerSetL_blau_35634fc1-4667-49c0-b007-9ffa354d3b2a.jpg?v=1593961526",
+            "variant_ids": [
+                34635839635619
+            ],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/17358462910627"
+        },
+        "images": [
+            {
+                "variant_ids": [
+                    34635839635619
+                ],
+                "_id": "5f0dde43961bfa8879f73a13",
+                "id": "17358462910627",
+                "product_id": "5288846655651",
+                "position": 1,
+                "created_at": "2020-06-15T11:58:21.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Navy Blue--skip",
+                "width": 2000,
+                "height": 2000,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/01_TravellerSetL_blau_35634fc1-4667-49c0-b007-9ffa354d3b2a.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a14",
+                "id": "17358462976163",
+                "product_id": "5288846655651",
+                "position": 2,
+                "created_at": "2020-06-15T11:58:21.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Navy Blue",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/02_TravellerSetL_blau_79742d74-2c59-49f5-8592-2af264920886.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a15",
+                "id": "17358463008931",
+                "product_id": "5288846655651",
+                "position": 3,
+                "created_at": "2020-06-15T11:58:21.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Navy Blue",
+                "width": 2000,
+                "height": 2000,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/03_TravellerSetL_blau_300802fd-c607-4964-ab34-6c6d5cd471c0.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a16",
+                "id": "17358463074467",
+                "product_id": "5288846655651",
+                "position": 4,
+                "created_at": "2020-06-15T11:58:21.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Navy Blue",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/04_TravellerSetL_blau_917f50c6-9123-4a9a-b4a4-cc0520aaec3f.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a17",
+                "id": "17358463107235",
+                "product_id": "5288846655651",
+                "position": 5,
+                "created_at": "2020-06-15T11:58:21.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Navy Blue",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/05_TravellerSetL_blau_f644b814-2323-4eb3-b401-09f857037da9.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a18",
+                "id": "17358463140003",
+                "product_id": "5288846655651",
+                "position": 6,
+                "created_at": "2020-06-15T11:58:21.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Navy Blue",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/06_TravellerSetL_blau_eabb8730-229b-494a-a8bd-5eb3a25a57ec.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a19",
+                "id": "17358463172771",
+                "product_id": "5288846655651",
+                "position": 7,
+                "created_at": "2020-06-15T11:58:21.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Navy Blue",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/07_TravellerSetL_blau_64452b04-9242-49b8-9031-1feca8c8777e.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a1a",
+                "id": "17358463205539",
+                "product_id": "5288846655651",
+                "position": 8,
+                "created_at": "2020-06-15T11:58:21.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Bordeaux Red--skip",
+                "width": 2000,
+                "height": 2000,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/01_TravellerSetL_bordeaux_afccf600-6b99-45d7-b9cc-dea07775bd16.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a1b",
+                "id": "17358463271075",
+                "product_id": "5288846655651",
+                "position": 9,
+                "created_at": "2020-06-15T11:58:21.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Bordeaux Red",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/02_TravellerSetL_bordeaux_8c4bdaed-e4da-4331-996e-efc570aa0665.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a1c",
+                "id": "17358463303843",
+                "product_id": "5288846655651",
+                "position": 10,
+                "created_at": "2020-06-15T11:58:21.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Bordeaux Red",
+                "width": 1500,
+                "height": 1499,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/03_TravellerSetL_bordeaux_9e9ef8ec-169c-412c-9719-22665d78e49c.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a1d",
+                "id": "17358463336611",
+                "product_id": "5288846655651",
+                "position": 11,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Bordeaux Red",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/04_TravellerSetL_bordeaux_583174af-f37b-4585-8d4a-f7266095f936.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a1e",
+                "id": "17358463369379",
+                "product_id": "5288846655651",
+                "position": 12,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Bordeaux Red",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/05_TravellerSetL_bordeaux_b3888967-2ee0-49d9-9b80-4e6f026ef355.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a1f",
+                "id": "17358463434915",
+                "product_id": "5288846655651",
+                "position": 13,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Bordeaux Red",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/06_TravellerSetL_bordeaux_4a827c17-01d5-4a81-8067-ce9b8aebd63d.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a20",
+                "id": "17358463467683",
+                "product_id": "5288846655651",
+                "position": 14,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Bordeaux Red",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/07_TravellerSetL_bordeaux_0b4cf36c-9e24-405f-9540-9094321e69cd.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a21",
+                "id": "17358463500451",
+                "product_id": "5288846655651",
+                "position": 15,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Desert Sand--skip",
+                "width": 2000,
+                "height": 2000,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/01_TravellerSetL_sand_d507b6a9-cc06-4eaa-b322-66bec77e9197.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a22",
+                "id": "17358463533219",
+                "product_id": "5288846655651",
+                "position": 16,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Desert Sand",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/02_TravellerSetL_sand_d8ef9cc7-3637-4695-8633-8ec66aff82d1.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a23",
+                "id": "17358463598755",
+                "product_id": "5288846655651",
+                "position": 17,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Desert Sand",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/03_TravellerSetL_sand_ab897bfd-efd4-4e44-8937-ad44138f869b.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a24",
+                "id": "17358463631523",
+                "product_id": "5288846655651",
+                "position": 18,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Desert Sand",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/04_TravellerSetL_sand_f673b10b-4bea-4f6e-a61d-bd5bfcbeb6b4.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a25",
+                "id": "17358463664291",
+                "product_id": "5288846655651",
+                "position": 19,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Desert Sand",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/05_TravellerSetL_sand_1f42b22b-cee5-4e83-8c83-06c71b7dee9b.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a26",
+                "id": "17358463697059",
+                "product_id": "5288846655651",
+                "position": 20,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Desert Sand",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/06_TravellerSetL_sand_54eaf3de-6d65-42bf-b459-7f0fd55b2922.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a27",
+                "id": "17358463729827",
+                "product_id": "5288846655651",
+                "position": 21,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Desert Sand",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/07_TravellerSetL_sand_80adc44a-452d-4ce6-9671-92ad0b741cde.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a28",
+                "id": "17358463762595",
+                "product_id": "5288846655651",
+                "position": 22,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Night Black--skip",
+                "width": 2000,
+                "height": 2000,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/01_TravellerSetL_schwarz_82b43308-aaa7-4bcd-8b77-61821418357c.jpg?v=1593961526"
+            },
+            {
+                "variant_ids": [],
+                "_id": "5f0dde43961bfa8879f73a29",
+                "id": "17358463795363",
+                "product_id": "5288846655651",
+                "position": 23,
+                "created_at": "2020-06-15T11:58:22.000Z",
+                "updated_at": "2020-07-05T15:05:26.000Z",
+                "alt": "Night Black",
+                "width": 1500,
+                "height": 1500,
+                "src": "https://cdn.shopify.com/s/files/1/0306/8693/7223/products/02_TravellerSetL_schwarz_e638d757-2003-4db2-95c2-e86755b5d325.jpg?v=1593961526"
+            }
+        ],
+        "options": [
+            {
+                "values": [
+                    "Navy Blue"
+                ],
+                "_id": "5f0dde43961bfa8879f73a12",
+                "id": "6760647196835",
+                "product_id": "5288846655651",
+                "name": "Farbe",
+                "position": 1
+            }
+        ],
+        "product_type": "Test Product",
+        "published_at": "2020-07-04T17:08:45.000Z",
+        "published_scope": "web",
+        "redirects": [],
+        "template_suffix": "configurator-template",
+        "title": "Test Product - Do Not Purchase",
+        "updated_at": "2020-07-14T16:32:56.000Z",
+        "variants": [
+            {
+                "_id": "5f0dde43961bfa8879f73a11",
+                "id": "34635839635619",
+                "product_id": "5288846655651",
+                "title": "Navy Blue",
+                "price": "1209.00",
+                "sku": "set-cw_wbl-nab",
+                "position": 1,
+                "inventory_policy": "continue",
+                "compare_at_price": "2380.00",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option1": "Navy Blue",
+                "option2": null,
+                "option3": null,
+                "created_at": "2020-06-15T11:58:17.000Z",
+                "updated_at": "2020-07-14T14:52:20.000Z",
+                "taxable": false,
+                "barcode": "",
+                "grams": 1600,
+                "image_id": 17358462910627,
+                "weight": 1.6,
+                "weight_unit": "kg",
+                "inventory_item_id": 36596924317859,
+                "inventory_quantity": 0,
+                "old_inventory_quantity": 0,
+                "requires_shipping": true
+            }
+        ],
+        "vendor": "Souleway"
+    },
+    "layer": [
+        {
+            "_id": "5f0bf602961bfa8879f72f5b",
+            "id": "5f0b5885961bfa8879f72f50",
+            "layer_obj": {
+                "archieve": false,
+                "_id": "5f0b5885961bfa8879f72f50",
+                "title": "Torso",
+                "store_url": "example.com",
+                "__v": 0
+            }
+        },
+        {
+            "_id": "5f0bf625961bfa8879f72f5c",
+            "id": "5f0b5864961bfa8879f72f4e",
+            "layer_obj": {
+                "archieve": false,
+                "_id": "5f0b5864961bfa8879f72f4e",
+                "title": "Band",
+                "store_url": "example.com",
+                "__v": 0
+            }
+        },
+        {
+            "_id": "5f0bf633961bfa8879f72f5d",
+            "id": "5f0b5874961bfa8879f72f4f",
+            "layer_obj": {
+                "archieve": false,
+                "_id": "5f0b5874961bfa8879f72f4f",
+                "title": "Leder",
+                "store_url": "example.com",
+                "__v": 0
+            }
+        },
+        {
+            "_id": "5f0bf63f961bfa8879f72fb0",
+            "id": "5f0bf5ec961bfa8879f72f5a",
+            "layer_obj": {
+                "archieve": false,
+                "_id": "5f0bf5ec961bfa8879f72f5a",
+                "title": "Innen",
+                "store_url": "example.com",
+                "__v": 0
+            }
+        }
+    ],
+    "property": [
+        {
+            "_id": "5f0bf663961bfa8879f72fb1",
+            "id": "5f0b589c961bfa8879f72f51",
+            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b17a0d60-65bc-02d5-44cc-6f808ff12a64.png"
+        },
+        {
+            "_id": "5f0bf66c961bfa8879f72fb2",
+            "id": "5f0b58ab961bfa8879f72f52",
+            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a7cff99c-5081-d017-1b2b-4695bdd8f581.png"
+        },
+        {
+            "_id": "5f0bf677961bfa8879f72fb3",
+            "id": "5f0b58c1961bfa8879f72f53",
+            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/031cd543-5d30-0f86-b9c5-4eed811bf1c4.png"
+        },
+        {
+            "_id": "5f0bf683961bfa8879f72fb4",
+            "id": "5f0b58d4961bfa8879f72f54",
+            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7d74e335-bac2-2177-da17-ba5fb37c3462.png"
+        },
+        {
+            "_id": "5f0bfb69961bfa8879f73038",
+            "id": "5f0b58e5961bfa8879f72f55",
+            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/e4a260a9-c371-6089-1df6-b2ea495a1c82.png"
+        },
+        {
+            "_id": "5f0bfb73961bfa8879f73039",
+            "id": "5f0b58fd961bfa8879f72f56",
+            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/3a92d32f-aa19-f5b4-b523-d138b573eb1d.png"
+        },
+        {
+            "_id": "5f0bfd76961bfa8879f73041",
+            "id": "5f0b5942961bfa8879f72f59",
+            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/8c21f9f6-a605-fabc-5280-0beaf507e645.png"
+        },
+        {
+            "_id": "5f0bfd86961bfa8879f73043",
+            "id": "5f0b5930961bfa8879f72f58",
+            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/edd8c90e-df8a-b0e2-8294-53f67f707e9d.png"
+        },
+        {
+            "_id": "5f0bfd8f961bfa8879f73044",
+            "id": "5f0b5921961bfa8879f72f57",
+            "icon": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/12b9008b-cbe3-260d-5aee-f867d6a6e43e.png"
+        }
+    ],
+    "view": [
+        {
+            "_id": "5f0bf691961bfa8879f72fb5",
+            "id": "5f0b583a961bfa8879f72f4c",
+            "icon": "",
+            "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/71b056db-fd97-7421-3599-ffa60c758367.png",
+            "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/71b056db-fd97-7421-3599-ffa60c758367.png",
+            "view_obj": {
+                "archieve": false,
+                "_id": "5f0b583a961bfa8879f72f4c",
+                "title": "Front",
+                "store_url": "example.com",
+                "__v": 0
+            }
+        },
+        {
+            "_id": "5f0bf69c961bfa8879f72fb6",
+            "id": "5f0b584e961bfa8879f72f4d",
+            "icon": "",
+            "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6439f1d4-17b8-cc87-2a94-c91184cd27b2.png",
+            "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6439f1d4-17b8-cc87-2a94-c91184cd27b2.png",
+            "view_obj": {
+                "archieve": false,
+                "_id": "5f0b584e961bfa8879f72f4d",
+                "title": "Oben",
+                "store_url": "example.com",
+                "__v": 0
+            }
+        },
+        {
+            "_id": "5f0c034e961bfa8879f7306f",
+            "id": "5f0c01a7961bfa8879f73049",
+            "icon": "",
+            "default_image": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/05f58530-7e7e-ef7f-0fb2-0c8fdbf8ac47.png",
+            "image_src": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/05f58530-7e7e-ef7f-0fb2-0c8fdbf8ac47.png",
+            "view_obj": {
+                "archieve": false,
+                "_id": "5f0c01a7961bfa8879f73049",
+                "title": "Obenzu",
+                "store_url": "example.com",
+                "__v": 0
+            }
+        }
+    ],
+    "images": [
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/71b056db-fd97-7421-3599-ffa60c758367.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6439f1d4-17b8-cc87-2a94-c91184cd27b2.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/05f58530-7e7e-ef7f-0fb2-0c8fdbf8ac47.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/82286b9a-1d94-7ad5-ae20-0b94e7697aa0.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7aaf98d3-ba4c-6ab6-2cc0-8941d25dc6ea.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d3d6552c-31b5-773f-e9f3-4f71e2b5b29c.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0c118467-156a-9d60-6752-258dcf8cb031.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7cb322f7-f5e0-2713-b4fb-5aff128e7779.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4c67e38b-2e59-6285-fed6-ccca493deda8.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/8ad3613a-cf09-2e28-601a-a078aeae3837.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a29a0f6b-65be-3667-42f6-911e42e1a821.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/62fe271c-db0a-551a-f8e7-048f58c80496.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/70c40127-3e61-fe0b-4526-7a8578f232e7.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b06cfbb8-a324-598c-69dd-825e9dd73b09.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b769f479-4c4c-4c89-3f88-1f3f50f3b647.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6233f9ee-40b4-ceb4-c261-4a96761c7111.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/93bc168a-ddb6-4949-d2db-03edd2d08451.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/edd11c1e-34db-25d4-dd38-212dc120eebf.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/ad87a302-2933-154b-372c-b7c340d1bd2b.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0d432e4f-2854-c6c0-ca68-9f1e42b1e889.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/52989162-93d2-29a5-19d9-1e767690363a.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d7573338-bb13-df99-8da5-25dd3fe1ab89.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f8ac1685-f77c-a892-a131-1e8abd50a37c.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4a019c41-3d2f-e9b9-1fd1-300259d1f0b7.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/fe6eb34f-0aaa-d885-7821-7696aefc506f.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/41cac2e3-c4e0-689b-6ba7-29e36e2c2eda.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/49fccf2a-a0a8-6f3e-eafe-7eb6ae0169f7.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/9f23bb5f-140d-ed9c-ce4e-4352f830b007.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b9ac0a33-2c9e-64b4-dedb-e2de18dd58a2.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/946e7f73-33ee-8a3d-4eb1-1905953ccd81.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/5a2d9c2f-f5fa-99df-e71b-b14f178d8ba7.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/e6a84f9b-8960-9570-23fe-e1cf49f230ab.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d91ae868-de4a-e5c1-b753-5405ebcfd7c9.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/85623119-24a5-6833-5b13-1951bd5b390f.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b10d7d6e-a3f8-2bf6-c30a-818d76e93255.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f21220e4-e5cc-0d32-465e-5691c7893ef1.png"
+        },
+        {
+            "url": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4651584e-b865-5428-d898-6a407c2cae0f.png"
+        }
+    ],
+    "image_arr": [
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/71b056db-fd97-7421-3599-ffa60c758367.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6439f1d4-17b8-cc87-2a94-c91184cd27b2.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/05f58530-7e7e-ef7f-0fb2-0c8fdbf8ac47.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/82286b9a-1d94-7ad5-ae20-0b94e7697aa0.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7aaf98d3-ba4c-6ab6-2cc0-8941d25dc6ea.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d3d6552c-31b5-773f-e9f3-4f71e2b5b29c.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0c118467-156a-9d60-6752-258dcf8cb031.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7cb322f7-f5e0-2713-b4fb-5aff128e7779.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4c67e38b-2e59-6285-fed6-ccca493deda8.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/8ad3613a-cf09-2e28-601a-a078aeae3837.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a29a0f6b-65be-3667-42f6-911e42e1a821.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/62fe271c-db0a-551a-f8e7-048f58c80496.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/70c40127-3e61-fe0b-4526-7a8578f232e7.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b06cfbb8-a324-598c-69dd-825e9dd73b09.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b769f479-4c4c-4c89-3f88-1f3f50f3b647.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6233f9ee-40b4-ceb4-c261-4a96761c7111.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/93bc168a-ddb6-4949-d2db-03edd2d08451.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/edd11c1e-34db-25d4-dd38-212dc120eebf.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/ad87a302-2933-154b-372c-b7c340d1bd2b.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0d432e4f-2854-c6c0-ca68-9f1e42b1e889.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/52989162-93d2-29a5-19d9-1e767690363a.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d7573338-bb13-df99-8da5-25dd3fe1ab89.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f8ac1685-f77c-a892-a131-1e8abd50a37c.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4a019c41-3d2f-e9b9-1fd1-300259d1f0b7.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/fe6eb34f-0aaa-d885-7821-7696aefc506f.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/41cac2e3-c4e0-689b-6ba7-29e36e2c2eda.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/49fccf2a-a0a8-6f3e-eafe-7eb6ae0169f7.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/9f23bb5f-140d-ed9c-ce4e-4352f830b007.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b9ac0a33-2c9e-64b4-dedb-e2de18dd58a2.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/946e7f73-33ee-8a3d-4eb1-1905953ccd81.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/5a2d9c2f-f5fa-99df-e71b-b14f178d8ba7.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/e6a84f9b-8960-9570-23fe-e1cf49f230ab.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d91ae868-de4a-e5c1-b753-5405ebcfd7c9.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/85623119-24a5-6833-5b13-1951bd5b390f.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b10d7d6e-a3f8-2bf6-c30a-818d76e93255.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f21220e4-e5cc-0d32-465e-5691c7893ef1.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4651584e-b865-5428-d898-6a407c2cae0f.png"
+    ],
+    "default_img_arr": [
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/71b056db-fd97-7421-3599-ffa60c758367.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/82286b9a-1d94-7ad5-ae20-0b94e7697aa0.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0c118467-156a-9d60-6752-258dcf8cb031.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/8ad3613a-cf09-2e28-601a-a078aeae3837.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/70c40127-3e61-fe0b-4526-7a8578f232e7.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6233f9ee-40b4-ceb4-c261-4a96761c7111.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/ad87a302-2933-154b-372c-b7c340d1bd2b.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d7573338-bb13-df99-8da5-25dd3fe1ab89.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/fe6eb34f-0aaa-d885-7821-7696aefc506f.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/9f23bb5f-140d-ed9c-ce4e-4352f830b007.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/5a2d9c2f-f5fa-99df-e71b-b14f178d8ba7.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/85623119-24a5-6833-5b13-1951bd5b390f.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b10d7d6e-a3f8-2bf6-c30a-818d76e93255.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f21220e4-e5cc-0d32-465e-5691c7893ef1.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4651584e-b865-5428-d898-6a407c2cae0f.png"
+    ],
+    "non_default_img_arr": [
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/6439f1d4-17b8-cc87-2a94-c91184cd27b2.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/05f58530-7e7e-ef7f-0fb2-0c8fdbf8ac47.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7aaf98d3-ba4c-6ab6-2cc0-8941d25dc6ea.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d3d6552c-31b5-773f-e9f3-4f71e2b5b29c.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7cb322f7-f5e0-2713-b4fb-5aff128e7779.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4c67e38b-2e59-6285-fed6-ccca493deda8.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a29a0f6b-65be-3667-42f6-911e42e1a821.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/62fe271c-db0a-551a-f8e7-048f58c80496.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b06cfbb8-a324-598c-69dd-825e9dd73b09.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b769f479-4c4c-4c89-3f88-1f3f50f3b647.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/93bc168a-ddb6-4949-d2db-03edd2d08451.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/edd11c1e-34db-25d4-dd38-212dc120eebf.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0d432e4f-2854-c6c0-ca68-9f1e42b1e889.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/52989162-93d2-29a5-19d9-1e767690363a.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f8ac1685-f77c-a892-a131-1e8abd50a37c.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4a019c41-3d2f-e9b9-1fd1-300259d1f0b7.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/41cac2e3-c4e0-689b-6ba7-29e36e2c2eda.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/49fccf2a-a0a8-6f3e-eafe-7eb6ae0169f7.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b9ac0a33-2c9e-64b4-dedb-e2de18dd58a2.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/946e7f73-33ee-8a3d-4eb1-1905953ccd81.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/e6a84f9b-8960-9570-23fe-e1cf49f230ab.png",
+        "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d91ae868-de4a-e5c1-b753-5405ebcfd7c9.png"
+    ]
+}
