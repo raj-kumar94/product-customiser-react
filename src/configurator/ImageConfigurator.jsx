@@ -31,6 +31,8 @@ class ImageConfigurator extends Component {
             showCanvas: false,
             containerOffsetHeight,
             containerOffsetWidth,
+            slides: [],
+            configObject: {}
         }
     }
 
@@ -64,29 +66,26 @@ class ImageConfigurator extends Component {
             img.src = picture.url;
         });
 
-        // let that = this;
-        // setTimeout(() => {
-        //     that.setState({selectedImages: that.state.images});
-        //     // calling_slick();
-        // }, 3000);
+        // const that = this;
+        // setInterval(() => {
+        //     console.log({ppppp: that.context.sliderImages});
+        // }, 5000);
     }
 
     componentWillUnmount() {
         window.removeEventListener('resize', this.updateDimensions);
     }
 
-    // componentDidMount() {
-    //     let that = this;
-    //     setTimeout(() => {
-    //         that.setState({showCanvas: true});
-    //     }, 3000);
-    // }
+    componentWillMount() {
+        this.setState({sliderImages: this.context.sliderImages, configObject: this.context.configObject});
+    }
 
     render() {
         // console.log('rendering...');
 
-        const { selectedImages, containerOffsetWidth, containerOffsetHeight } = this.state;
-        const { productData } = this.context;
+        const { containerOffsetWidth, containerOffsetHeight } = this.state;
+        const { sliderImages } = this.context;
+        console.log({sliderImages});
 
         var settings = {
             dots: false,
@@ -106,13 +105,13 @@ class ImageConfigurator extends Component {
         return (
             <Slider {...settings}>
                 {
-                    productData.view.map( (view, index) => {
-                        return <div key={`view-${index}`}>
+                    sliderImages.map( (images, index) => {
+                        return <div key={`views-${index}`}>
                                 <Stage width={containerOffsetWidth} height={containerOffsetHeight}>
                                     {
-                                        selectedImages.map(src => {
+                                        images.map((src, index) => {
                                             return (
-                                                <Layer key={src}>
+                                                <Layer key={`layer-${index}`}>
                                                     <LoadImageFromURL src={src} containerOffsetWidth={containerOffsetWidth} containerOffsetHeight={containerOffsetHeight} />
                                                 </Layer>
                                             )
