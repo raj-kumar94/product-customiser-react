@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './App.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ProductConfigurator from './configurator/ProductConfigurator';
-import ConfiguratorOptions from './configurator/ConfiguratorOptions';
-import GridsConfigurator from './configurator/GridsConfigurator';
+import ProductConfigurator from './components/ProductConfigurator';
+import ConfiguratorOptions from './components/ConfiguratorOptions';
+import GridsConfigurator from './components/GridsConfigurator';
 import * as serviceWorker from './serviceWorker';
 import ConfiguratorContextProvider from './contexts/Configurator';
 

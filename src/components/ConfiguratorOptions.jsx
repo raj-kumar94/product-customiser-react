@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import ConfiguratorContextProvider from '../contexts/Configurator';
-import ConfLayers from "../components/ConfLayers";
+import ConfLayers from "./ConfLayers";
 
 class ConfiguratorOptions extends Component {
     render() {

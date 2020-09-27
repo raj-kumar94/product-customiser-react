@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Slider from "react-slick";
-import ImageConfigurator from "../configurator/ImageConfigurator";
+// import Slider from "react-slick";
+import ImageConfigurator from "../components/ImageConfigurator";
 import { SlickNextArrow, SlickPrevArrow } from './SlickSliderArrows';
 
 class ProductSlider extends Component {
@@ -22,8 +22,10 @@ class ProductSlider extends Component {
     render() {
         const settings = this.state.sliderSettings;
         return (
+            // using content of ImageConfigurator in here is not working
+            // so, I'm using Slider inside ImageConfigurator component conditionally
             // <Slider {...settings}>
-                <ImageConfigurator settings={settings} />
+            <ImageConfigurator settings={settings} />
             // </Slider>
         )
     }
