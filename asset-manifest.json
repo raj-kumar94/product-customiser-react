@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/customiser-react/static/css/main.0ebe6272.chunk.css",
+    "main.js": "/customiser-react/static/js/main.554afbb0.chunk.js",
+    "main.js.map": "/customiser-react/static/js/main.554afbb0.chunk.js.map",
+    "runtime-main.js": "/customiser-react/static/js/runtime-main.e7615013.js",
+    "runtime-main.js.map": "/customiser-react/static/js/runtime-main.e7615013.js.map",
+    "static/css/2.ec2cbdb5.chunk.css": "/customiser-react/static/css/2.ec2cbdb5.chunk.css",
+    "static/js/2.b68b55c6.chunk.js": "/customiser-react/static/js/2.b68b55c6.chunk.js",
+    "static/js/2.b68b55c6.chunk.js.map": "/customiser-react/static/js/2.b68b55c6.chunk.js.map",
+    "index.html": "/customiser-react/index.html",
+    "precache-manifest.0139eaaf9ab0a834c150b1ac31d25bb5.js": "/customiser-react/precache-manifest.0139eaaf9ab0a834c150b1ac31d25bb5.js",
+    "service-worker.js": "/customiser-react/service-worker.js",
+    "static/css/2.ec2cbdb5.chunk.css.map": "/customiser-react/static/css/2.ec2cbdb5.chunk.css.map",
+    "static/css/main.0ebe6272.chunk.css.map": "/customiser-react/static/css/main.0ebe6272.chunk.css.map",
+    "static/js/2.b68b55c6.chunk.js.LICENSE.txt": "/customiser-react/static/js/2.b68b55c6.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/customiser-react/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7615013.js",
+    "static/css/2.ec2cbdb5.chunk.css",
+    "static/js/2.b68b55c6.chunk.js",
+    "static/css/main.0ebe6272.chunk.css",
+    "static/js/main.554afbb0.chunk.js"
+  ]
+}
