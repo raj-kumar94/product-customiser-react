@@ -67,7 +67,7 @@ class ConfiguratorContextProvider extends Component {
 
 
     /**
-     * Generate view images
+     * Generate view images for selected color in each layer
      */
     generateViewImagesArr = (productData, configObject, currentLayerColors) => {
         let viewsTemp = {};
@@ -94,6 +94,9 @@ class ConfiguratorContextProvider extends Component {
     }
 
 
+    /**
+     * On click of swatch, update the canvas/images
+     */
     handleCurrentLayerColorChange = async (layer_title, property_title) => {
         let { currentLayerColors } = this.state;
         if(currentLayerColors[layer_title] != property_title) {
@@ -108,7 +111,6 @@ class ConfiguratorContextProvider extends Component {
                 currentLayerColors: currentLayerColors
             });
             console.log("values updated");
-            console.log(this.state.sliderImages)
         } else {
             console.log("Same color");
         }
