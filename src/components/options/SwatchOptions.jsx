@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ConfiguratorContext } from '../contexts/Configurator';
+import { ConfiguratorContext } from '../../contexts/Configurator';
 
 
 function SwatchOptionProperties(props) {
@@ -8,8 +8,8 @@ function SwatchOptionProperties(props) {
     const property_title = property.property_obj.title;
 
     return (
-        <div className="swatch clearfix" data-option-index="0">
-            <input id={property._id} type="radio" name="option-0" aria-label={property_title} tabIndex={tabIndex} value={property_title} />
+        <div className="swatch clearfix" data-option-index={tabIndex}>
+            <input id={property._id} type="radio" name={`option-${tabIndex}`} aria-label={property_title} tabIndex={tabIndex} value={property_title} />
             <div tabIndex={tabIndex} data-property_title={property_title} data-layer_title={props.layer_title} data-id={property._id}
                 data-layer-id={property._id} data-property-id={property._id}
                 className={`swatch-element color ${ props.selectedSwatch === property_title ? "selected": "" }`} onClick={props.handleSwatchClick}>
@@ -65,10 +65,10 @@ export class SwatchOptions extends Component {
                         }
                         {/* <span className="level-one-icon icon-plus"></span>
                         <span className="level-one-icon icon-minus"></span> */}
-                        <span className="subtitle-block" style={{ visibility: 'visible' }}>Farbe: Bordeaux</span>
+                        <span className="subtitle-block" style={{ visibility: 'visible' }}>Farbe: {this.props.selectedSwatch}</span>
                     </h1>
-                    <div className="prod-accordion-content" name={`dropdown_custom_${layer.layer_obj._od}`}
-                        id={`dropdown_custom_${layer.layer_obj._od}`} data-layer-id={layer.layer_obj._od}
+                    <div className="prod-accordion-content" name={`dropdown_custom_${layer.layer_obj._id}`}
+                        id={`dropdown_custom_${layer.layer_obj._id}`} data-layer-id={layer.layer_obj._id}
                         style={{ display: display }}>
                         <div className="swatch_options">
 
@@ -82,7 +82,7 @@ export class SwatchOptions extends Component {
                             {/* end repetitive block */}
 
                         </div>
-                        <span className="subtitle-block">Farbe: Bordeaux</span>
+                        <span className="subtitle-block">Farbe: {this.props.selectedSwatch}</span>
                     </div>
                 </div>
             // </div>

@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './App.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ProductConfigurator from './components/ProductConfigurator';
-import ConfiguratorOptions from './components/ConfiguratorOptions';
-import GridsConfigurator from './components/GridsConfigurator';
+import ProductSlider from './components/slider/ProductSlider';
+import ConfiguratorOptions from './components/options/ConfiguratorOptions';
+import GridsConfigurator from './components/grid/GridsConfigurator';
 import * as serviceWorker from './serviceWorker';
 import ConfiguratorContextProvider from './contexts/Configurator';
 
@@ -14,14 +14,14 @@ const CUSTOMISER_OPTIONS_SECTION = document.getElementById('customiser-options-s
 const CUSTOMISER_GRIDS_SECTION = document.getElementById('viewGrid');
 
 
-const ProductConfiguratorPortal = () => ReactDOM.createPortal(<ProductConfigurator />, CUSTOMISER_SLIDER_SECTION);
+const ProductSliderPortal = () => ReactDOM.createPortal(<ProductSlider />, CUSTOMISER_SLIDER_SECTION);
 const ConfiguratorOptionsPortal = () => ReactDOM.createPortal(<ConfiguratorOptions />, CUSTOMISER_OPTIONS_SECTION);
 const GridsConfiguratorPortal = () => ReactDOM.createPortal(<GridsConfigurator />, CUSTOMISER_GRIDS_SECTION);
 class Container extends React.Component {
   render() {
     return <>
     <ConfiguratorContextProvider>
-      <ProductConfiguratorPortal />
+      <ProductSliderPortal />
       <ConfiguratorOptionsPortal />
       <GridsConfiguratorPortal />
     </ConfiguratorContextProvider>
@@ -29,12 +29,6 @@ class Container extends React.Component {
   }
 }
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <ProductConfigurator />
-//   </React.StrictMode>,
-//   document.getElementById('customiser-slider-section')
-// );
 
 ReactDOM.render(
   <React.StrictMode>

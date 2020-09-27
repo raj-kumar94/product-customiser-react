@@ -85,6 +85,9 @@ class ImageConfigurator extends Component {
     getCanvasHtml = (sliderImages, viewKey="views-", layerKey= "layer-") => {
         const { containerOffsetWidth, containerOffsetHeight, containerWidth, conatainerHeight } = this.state;
 
+        /**
+         * create n number of divs per views (top/side/inner etc). They all will go inside the slider
+         */
         return sliderImages.map( (images, index) => {
             return <div key={`${viewKey}${index}`} id={`${viewKey}${index}`}>
                     <Stage width={containerWidth} height={conatainerHeight}>
@@ -107,10 +110,6 @@ class ImageConfigurator extends Component {
 
         const { sliderImages } = this.context;
         var settings = this.props.settings;
-
-        /**
-         * create n number of divs per views (top/side/inner etc). They all will go inside the slider
-         */
 
         return (
             settings 

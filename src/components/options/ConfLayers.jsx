@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ConfiguratorContext } from "../contexts/Configurator";
+import { ConfiguratorContext } from "../../contexts/Configurator";
 import SwatchOptions from "./SwatchOptions";
 
 class ConfLayers extends Component {
@@ -10,7 +10,6 @@ class ConfLayers extends Component {
 
         const configurations = this.context && this.context.productData ? this.context.productData.product.configuration: {};
         const currentLayerColors = this.context.currentLayerColors;
-        console.log(currentLayerColors);
         
         return (
             <div className="prod-custom-accordion-wrapper">

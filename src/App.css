@@ -17,9 +17,13 @@
   grid-template-columns: 1fr 1fr;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 798px) {
   #viewGrid {
     grid-template-columns: 1fr;
+  }
+
+  #customiser-slider-section {
+    height: 400px;
   }
 }
 

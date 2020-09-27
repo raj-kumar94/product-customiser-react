@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 // import Slider from "react-slick";
-import ImageConfigurator from "../components/ImageConfigurator";
+import ImageConfigurator from "../ImageConfigurator";
 import { SlickNextArrow, SlickPrevArrow } from './SlickSliderArrows';
 
 class ProductSlider extends Component {
@@ -31,4 +31,4 @@ class ProductSlider extends Component {
     }
 }
 
-export default ProductSlider
+export default ProductSlider;

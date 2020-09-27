@@ -5,12 +5,9 @@ import ConfLayers from "./ConfLayers";
 class ConfiguratorOptions extends Component {
     render() {
         return (
-            // <ConfiguratorContextProvider>
-            <div>
-                <h1>Options here</h1>
+            <>
                 <ConfLayers />
-            </div>
-            // </ConfiguratorContextProvider>
+            </>
         )
     }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ImageConfigurator from './ImageConfigurator'
+import ImageConfigurator from '../ImageConfigurator'
 
 class GridsConfigurator extends Component {
     render() {
