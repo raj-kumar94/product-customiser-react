@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
+import './App.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProductConfigurator from './configurator/ProductConfigurator';
@@ -10,6 +10,7 @@ import ConfiguratorContextProvider from './contexts/Configurator';
 
 const CUSTOMISER_SLIDER_SECTION = document.getElementById('customiser-slider-section');
 const CUSTOMISER_OPTIONS_SECTION = document.getElementById('customiser-options-section');
+const CUSTOMISER_GRIDS_SECTION = document.getElementById('viewGrid');
 
 
 const ProductConfiguratorPortal = () => ReactDOM.createPortal(<ProductConfigurator />, CUSTOMISER_SLIDER_SECTION);

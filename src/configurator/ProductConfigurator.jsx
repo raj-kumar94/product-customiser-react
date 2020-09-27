@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ProductSlider from "../components/ProductSlider";
 import ImageConfigurator from "./ImageConfigurator";
 import ConfiguratorContextProvider from '../contexts/Configurator';
 

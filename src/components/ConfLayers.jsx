@@ -8,14 +8,15 @@ class ConfLayers extends Component {
 
     render() {
 
-        const { productData } = this.context;
-        const configurations = productData.product.configuration;
+        const configurations = this.context && this.context.productData ? this.context.productData.product.configuration: {};
+        const currentLayerColors = this.context.currentLayerColors;
+        console.log(currentLayerColors);
         
         return (
             <div className="prod-custom-accordion-wrapper">
                 {
                 configurations.layer.map( (layer, index) => {
-                    return <SwatchOptions key={`layer-${index}`} tabIndex={index} layer={layer} />
+                    return <SwatchOptions key={`layer-${index}`} tabIndex={index} layer={layer} selectedSwatch={currentLayerColors[layer.layer_obj.title]} />
                 })
                 }
             </div>

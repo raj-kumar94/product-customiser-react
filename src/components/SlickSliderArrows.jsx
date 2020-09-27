@@ -16,7 +16,7 @@ export const SlickNextArrow = (props) => {
     return (
         <div
             className={className}
-            style={{ ...style, display: "block", background: "#9a9697", width: "52px", height: "43px", padding: "12px", zIndex: "99999999" }}
+            style={{ ...style, display: "block", background: "#9a9697", right: "18px", width: "52px", height: "43px", padding: "12px", zIndex: "99999999" }}
             onClick={onClick}
         />
     );

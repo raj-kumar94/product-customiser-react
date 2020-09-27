@@ -5,13 +5,14 @@ import { ConfiguratorContext } from '../contexts/Configurator';
 function SwatchOptionProperties(props) {
     const tabIndex = props.tabIndex || 0;
     const property = props.property;
+    const property_title = property.property_obj.title;
 
     return (
         <div className="swatch clearfix" data-option-index="0">
-            <input id={property._id} type="radio" name="option-0" aria-label={property.property_obj.title} tabIndex={tabIndex} value={property.property_obj.title} />
-            <div tabIndex={tabIndex} data-property_title={property.property_obj.title} data-layer_title={props.layer_title} data-id={property._id}
+            <input id={property._id} type="radio" name="option-0" aria-label={property_title} tabIndex={tabIndex} value={property_title} />
+            <div tabIndex={tabIndex} data-property_title={property_title} data-layer_title={props.layer_title} data-id={property._id}
                 data-layer-id={property._id} data-property-id={property._id}
-                className="swatch-element color outOfStock" onClick={props.handleSwatchClick}>
+                className={`swatch-element color ${ props.selectedSwatch === property_title ? "selected": "" }`} onClick={props.handleSwatchClick}>
                 <label data-image={property.property_obj.icon}
                     htmlFor={property._id}
                     style={{ background: `url(${property.property_obj.icon})`, backgroundPosition: "center" }}>
@@ -20,7 +21,7 @@ function SwatchOptionProperties(props) {
                         aria-label="sold out" alt="sold out"/>
                 </label>
             </div>
-            <input type="radio" name={`option-${tabIndex}`} aria-label={property.property_obj.title} tabIndex={tabIndex} value={property.property_obj.title} />
+            <input type="radio" name={`option-${tabIndex}`} aria-label={property_title} tabIndex={tabIndex} value={property_title} />
         </div>
     )
 }
@@ -31,7 +32,8 @@ export class SwatchOptions extends Component {
     static contextType = ConfiguratorContext;
 
     state = {
-        display: 'none'
+        display: 'none',
+        selectedSwatch: 'Blau'
     }
 
     handleSwatchClick = (event) => {
@@ -73,14 +75,14 @@ export class SwatchOptions extends Component {
                             {/* repetitive block */}
                             {
                                 layer.properties.map( (property, index) => {
-                                    return <SwatchOptionProperties key={`SwatchOptionProperties-${index}`} tabIndex={tabIndex} layer_title={layer.layer_obj.title} property={property} handleSwatchClick={this.handleSwatchClick} />
+                                    return <SwatchOptionProperties key={`SwatchOptionProperties-${index}`} tabIndex={tabIndex} layer_title={layer.layer_obj.title} property={property} handleSwatchClick={this.handleSwatchClick} selectedSwatch={this.props.selectedSwatch} />
                                 })
                             }
 
                             {/* end repetitive block */}
 
-                            <span className="subtitle-block">Farbe: Bordeaux</span>
                         </div>
+                        <span className="subtitle-block">Farbe: Bordeaux</span>
                     </div>
                 </div>
             // </div>
