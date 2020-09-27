@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/product-customiser-react/static/css/main.0ebe6272.chunk.css",
-    "main.js": "/product-customiser-react/static/js/main.3c06a1a8.chunk.js",
-    "main.js.map": "/product-customiser-react/static/js/main.3c06a1a8.chunk.js.map",
+    "main.js": "/product-customiser-react/static/js/main.36e180ed.chunk.js",
+    "main.js.map": "/product-customiser-react/static/js/main.36e180ed.chunk.js.map",
     "runtime-main.js": "/product-customiser-react/static/js/runtime-main.d42969be.js",
     "runtime-main.js.map": "/product-customiser-react/static/js/runtime-main.d42969be.js.map",
     "static/css/2.9c21dc1a.chunk.css": "/product-customiser-react/static/css/2.9c21dc1a.chunk.css",
     "static/js/2.b68b55c6.chunk.js": "/product-customiser-react/static/js/2.b68b55c6.chunk.js",
     "static/js/2.b68b55c6.chunk.js.map": "/product-customiser-react/static/js/2.b68b55c6.chunk.js.map",
     "index.html": "/product-customiser-react/index.html",
-    "precache-manifest.025e034417c09cdd4659e97888a3ec93.js": "/product-customiser-react/precache-manifest.025e034417c09cdd4659e97888a3ec93.js",
+    "precache-manifest.8c70693ebf9aa943da57a9966b7fe6a2.js": "/product-customiser-react/precache-manifest.8c70693ebf9aa943da57a9966b7fe6a2.js",
     "service-worker.js": "/product-customiser-react/service-worker.js",
     "static/css/2.9c21dc1a.chunk.css.map": "/product-customiser-react/static/css/2.9c21dc1a.chunk.css.map",
     "static/css/main.0ebe6272.chunk.css.map": "/product-customiser-react/static/css/main.0ebe6272.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.9c21dc1a.chunk.css",
     "static/js/2.b68b55c6.chunk.js",
     "static/css/main.0ebe6272.chunk.css",
-    "static/js/main.3c06a1a8.chunk.js"
+    "static/js/main.36e180ed.chunk.js"
   ]
 }
