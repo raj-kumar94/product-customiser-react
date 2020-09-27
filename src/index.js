@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProductConfigurator from './configurator/ProductConfigurator';
 import ConfiguratorOptions from './configurator/ConfiguratorOptions';
+import GridsConfigurator from './configurator/GridsConfigurator';
 import * as serviceWorker from './serviceWorker';
 import ConfiguratorContextProvider from './contexts/Configurator';
 
@@ -15,12 +16,14 @@ const CUSTOMISER_GRIDS_SECTION = document.getElementById('viewGrid');
 
 const ProductConfiguratorPortal = () => ReactDOM.createPortal(<ProductConfigurator />, CUSTOMISER_SLIDER_SECTION);
 const ConfiguratorOptionsPortal = () => ReactDOM.createPortal(<ConfiguratorOptions />, CUSTOMISER_OPTIONS_SECTION);
+const GridsConfiguratorPortal = () => ReactDOM.createPortal(<GridsConfigurator />, CUSTOMISER_GRIDS_SECTION);
 class Container extends React.Component {
   render() {
     return <>
     <ConfiguratorContextProvider>
       <ProductConfiguratorPortal />
       <ConfiguratorOptionsPortal />
+      <GridsConfiguratorPortal />
     </ConfiguratorContextProvider>
     </>
   }

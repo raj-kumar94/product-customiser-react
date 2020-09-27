@@ -3,7 +3,6 @@ import { Stage, Layer } from 'react-konva';
 import Slider from "react-slick";
 
 import LoadImageFromURL from "../components/LoadImageFromURL"
-import { SlickPrevArrow, SlickNextArrow } from "../components/SlickSliderArrows";
 import { ConfiguratorContext } from '../contexts/Configurator';
 
 
@@ -83,48 +82,44 @@ class ImageConfigurator extends Component {
     //     this.setState({sliderImages: this.context.sliderImages, configObject: this.context.configObject});
     // }
 
+    getCanvasHtml = (sliderImages, viewKey="views-", layerKey= "layer-") => {
+        const { containerOffsetWidth, containerOffsetHeight, containerWidth, conatainerHeight } = this.state;
+
+        return sliderImages.map( (images, index) => {
+            return <div key={`${viewKey}${index}`} id={`${viewKey}${index}`}>
+                    <Stage width={containerWidth} height={conatainerHeight}>
+                        {
+                            images.map((src, index) => {
+                                return (
+                                    <Layer key={`${layerKey}${index}`}>
+                                        <LoadImageFromURL src={src} containerOffsetWidth={containerOffsetWidth} containerOffsetHeight={containerOffsetHeight} />
+                                    </Layer>
+                                )
+                            })
+                        }
+                    </Stage>
+                </div>
+        });
+    }
+
     render() {
         // console.log('rendering...');
 
-        const { containerOffsetWidth, containerOffsetHeight, containerWidth, conatainerHeight } = this.state;
         const { sliderImages } = this.context;
-        // console.log({sliderImages});
-
-        var settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            adaptiveHeight: true,
-            // arrows: true,
-            nextArrow: <SlickNextArrow />,
-            prevArrow: <SlickPrevArrow />
-        };
+        var settings = this.props.settings;
 
         /**
          * create n number of divs per views (top/side/inner etc). They all will go inside the slider
          */
+
         return (
+            settings 
+            ? 
             <Slider {...settings}>
-                {
-                    sliderImages.map( (images, index) => {
-                        return <div key={`views-${index}`}>
-                                <Stage width={containerWidth} height={conatainerHeight}>
-                                    {
-                                        images.map((src, index) => {
-                                            return (
-                                                <Layer key={`layer-${index}`}>
-                                                    <LoadImageFromURL src={src} containerOffsetWidth={containerOffsetWidth} containerOffsetHeight={containerOffsetHeight} />
-                                                </Layer>
-                                            )
-                                        })
-                                    }
-                                </Stage>
-                            </div>
-                    })
-                }
+                {this.getCanvasHtml(sliderImages)}
             </Slider>
+            : 
+            <>{this.getCanvasHtml(sliderImages, 'viewGrid_thumb_', 'viewGrid_thumb_')}</>
         );
     }
 }

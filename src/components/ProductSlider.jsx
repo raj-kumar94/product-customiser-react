@@ -20,11 +20,11 @@ class ProductSlider extends Component {
     }
 
     render() {
-        const settings = this.state.settings;
+        const settings = this.state.sliderSettings;
         return (
-            <Slider {...settings}>
-                <ImageConfigurator />
-            </Slider>
+            // <Slider {...settings}>
+                <ImageConfigurator settings={settings} />
+            // </Slider>
         )
     }
 }

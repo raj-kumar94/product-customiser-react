@@ -7,7 +7,8 @@ export class ProductConfigurator extends Component {
     render() {
         return (
             // <ConfiguratorContextProvider>
-                <ImageConfigurator />
+                // <ImageConfigurator />
+                <ProductSlider />
             // </ConfiguratorContextProvider>
         )
     }

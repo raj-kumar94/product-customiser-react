@@ -10,3 +10,31 @@
 .swatch-element.selected {
   border: 1px solid black;
 }
+
+#viewGrid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 768px) {
+  #viewGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+#viewGrid div {
+  background: rgb(208 208 208 / 41%);
+}
+
+#viewGrid div:nth-child(2) {
+  background: #e4d3d3f0;
+}
+
+#viewGrid div:nth-child(3) {
+  background: #f3e5d2;
+}
+
+#viewGrid div:nth-child(4) {
+  background: #e0e8d3;
+}
