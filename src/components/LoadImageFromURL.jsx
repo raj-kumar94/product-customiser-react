@@ -16,7 +16,8 @@ const LoadImageFromURL = (props) => {
      * so use if statement to update values
      */
     if(image) {
-        var max = props.containerOffsetWidth;
+        // var max = props.containerOffsetWidth;
+        var max = Math.max(props.containerOffsetWidth, props.containerOffsetHeight);
         var img_width = image.width;
         var img_height = image.height;
         var ratio = (img_width > img_height ? (img_width / max) : (img_height / max));
@@ -25,6 +26,7 @@ const LoadImageFromURL = (props) => {
 
         x = (props.containerOffsetWidth - image_width) / 2;
         y = (props.containerOffsetHeight - image_height) / 2;
+        // console.log({x, y, image_width, image_height, max, image: 'yes', w: props.containerOffsetWidth, h: props.containerOffsetHeight});
     }
     return <KonvaImage image={image} width={image_width} height={image_height} x={x} y={y} />;
 };

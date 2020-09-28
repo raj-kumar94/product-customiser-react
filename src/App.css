@@ -42,3 +42,14 @@
 #viewGrid div:nth-child(4) {
   background: #e0e8d3;
 }
+
+.slick-next:before {
+  content: '\203A' !important;
+  color: black !important;
+  transform: scale(4.5);
+}
+
+.slick-prev:before {
+  content: '\2039' !important;
+  color: black !important;
+}

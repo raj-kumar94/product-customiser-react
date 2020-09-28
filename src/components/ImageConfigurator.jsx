@@ -32,14 +32,14 @@ class ImageConfigurator extends Component {
         let containerWidth = containerOffsetWidth;
         let conatainerHeight = containerOffsetHeight;
 
-        let currentRatio = containerOffsetWidth/containerOffsetHeight;
+        // let currentRatio = containerOffsetWidth/containerOffsetHeight;
 
-        if(currentRatio > this.ratio) {
-            containerOffsetWidth = this.ratio * containerOffsetHeight;
-        } else if(currentRatio < (this.ratio - 0.1)) {
-            containerOffsetWidth = Math.min(containerOffsetWidth,containerOffsetHeight);
-            containerOffsetHeight = containerOffsetWidth / this.ratio;
-        }
+        // if(currentRatio > this.ratio) {
+        //     containerOffsetWidth = this.ratio * containerOffsetHeight;
+        // } else if(currentRatio < (this.ratio - 0.1)) {
+        //     containerOffsetWidth = Math.min(containerOffsetWidth,containerOffsetHeight);
+        //     containerOffsetHeight = containerOffsetWidth / this.ratio;
+        // }
         return { containerOffsetHeight, containerOffsetWidth, containerWidth, conatainerHeight };
     }
 
