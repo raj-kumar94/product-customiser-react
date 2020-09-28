@@ -67,7 +67,8 @@ class ConfiguratorContextProvider extends Component {
 
 
     /**
-     * Generate view images for selected color in each layer
+     * Generate view images for selected color in each layer (2D array of images)
+     * [ [view1 images], [view2 images], [view3 images], ....]
      */
     generateViewImagesArr = (productData, configObject, currentLayerColors) => {
         let viewsTemp = {};
@@ -76,6 +77,9 @@ class ConfiguratorContextProvider extends Component {
             for(let layerTitle in configObject) {
                 // currentLayerColors[layerTitle] = color of the layer
                 let viewImage = configObject[layerTitle][currentLayerColors[layerTitle]][view.view_obj.title];
+                if(!viewImage) {
+                    continue;
+                }
                 if(viewsTemp[view.view_obj.title]) {
                    viewsTemp[view.view_obj.title].push(viewImage); 
                 } else {
@@ -102,10 +106,8 @@ class ConfiguratorContextProvider extends Component {
         if(currentLayerColors[layer_title] != property_title) {
             console.log("Different");
             currentLayerColors[layer_title] = property_title;
-            // this.setState({currentLayerColors});
 
             const { sliderImages } = this.generateViewImagesArr(this.state.productData, this.state.configObject, this.state.currentLayerColors);
-            // console.log({sliderImages, currentLayerColors})
             await this.setState({
                 sliderImages:sliderImages, 
                 currentLayerColors: currentLayerColors

@@ -1,0 +1,119 @@
+{
+    "configObject": {
+        "Torso": {
+            "Blau": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7b7adfad-6aa1-95c2-f982-e0f81ad71c3b.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/408f9303-c889-fd19-5c78-2cf421522fa3.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/27e8628c-dd88-a676-e2c3-89770cc64a1e.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/817b6323-4c39-c9c8-2041-e4018734a5f3.webp"
+            },
+            "Bordeaux": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/4e268173-2d76-6375-ad0e-93b7daee16a0.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/0891cb5e-ea35-b113-034c-5764fd43ca51.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a897a51d-2310-7d2d-1c2e-a8e8b58d17b6.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/a7124524-adfb-44f0-0529-852fc300a81c.webp"
+            },
+            "Sand": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/ed197e29-286f-e77d-4ffa-88b2127ef769.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b751e389-a207-51d9-a92b-9de757befa23.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b36970f8-618b-6785-fada-66cd4ba1158c.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/61e970a4-eb45-b25f-b9a3-c35aac45575c.webp"
+            },
+            "Schwarz": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/12ea9e40-3172-df52-8c32-fc4c68a6c094.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/b36cd4f4-2933-047a-787d-22e6616c204f.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/5c19fc7c-d14e-0b8f-5e6c-2650330b0485.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/40521a34-464a-be74-74dc-f160f73e4937.webp"
+            }
+        },
+        "Band": {
+            "Blau": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/2d5b851d-ad76-0e86-ab34-8c1089cfbc54.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/76a1c320-2a56-f53d-9478-6169d6442dc5.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/184dc023-f50c-f323-97b9-c81dcbcf9e9a.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/319a9354-7c8a-42a1-8159-2f0d7786a672.webp"
+            },
+            "Bordeaux": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/270f767b-f336-73c6-3e14-294c6c1e1eb1.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/ecdf296b-6a2a-8479-84c7-b48f7fe21b08.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/cf36748d-9985-06d2-e1cf-0cf9c0b9e652.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7b31face-c0cb-3d8e-6336-e43fc2185d40.webp"
+            },
+            "Sand": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/333e6fb1-6bfe-7e8e-c830-f6d20c46a4c9.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f7c6c810-2623-decf-1f71-49a791af15d6.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/ecca01dc-cffa-ea1d-9dea-f8094ecb43ab.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/543898c1-3301-b3f5-fd99-bcd64d1a6e12.webp"
+            },
+            "Schwarz": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/ea6122ec-404c-09aa-1eaf-015f8fd12422.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f151a431-5e0b-2cdb-a8bc-9ba3ebe5c6bc.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/bdff137f-a6c5-9ff7-d733-b775c0e6e699.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/5ff3821d-ef0f-3866-1e45-762b4a46966d.webp"
+            }
+        },
+        "Leder": {
+            "Beige": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/51a990a2-11c1-0da6-2621-804ab0c2bce3.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/3831cb89-49b7-7298-9644-c409312852ca.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/850593ff-4545-3bf4-7373-4d36751dc3d7.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/25efea63-34fd-c7d4-4068-0e0d43e7aefe.webp"
+            },
+            "Braun": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/9335f2f1-dca2-7d50-561a-111133a0c9f2.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/32bc4a24-7f21-462e-4ad1-14a6fed74fc4.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/41c63980-ebbe-0638-c1b4-40f77ab87697.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/873d232a-d89b-3cbb-d54c-eadbf63233c7.webp"
+            },
+            "Schwarz": {
+                "Front": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f1a46615-fed0-4a46-27a0-0e23b2baa066.webp",
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/c28abf1b-be25-bbf0-5b12-e5f0cc9a70e7.webp",
+                "Obenzu": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/d1446cf9-016d-7cf1-b893-f3872df994f0.webp",
+                "Seite": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/1bed5ca6-5b07-1a48-894b-9d3d02a8264e.webp"
+            }
+        },
+        "Innen": {
+            "Anthrazit": {
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/8b3389d6-bde1-d2f4-f248-b50e2e3d0558.webp"
+            },
+            "Blau": {
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/682a5b40-7270-38d0-aab7-a5da79f5e82b.webp"
+            },
+            "Gelb": {
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/bc4ea167-2364-720e-2a52-fcdf6d7560b7.webp"
+            },
+            "Rot": {
+                "Oben": "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/f733f3a5-6739-3402-4271-75a6365fa798.webp"
+            }
+        }
+    },
+    "sliderImages": [
+        [
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/7b7adfad-6aa1-95c2-f982-e0f81ad71c3b.webp",
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/2d5b851d-ad76-0e86-ab34-8c1089cfbc54.webp",
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/51a990a2-11c1-0da6-2621-804ab0c2bce3.webp"
+        ],
+        [
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/408f9303-c889-fd19-5c78-2cf421522fa3.webp",
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/76a1c320-2a56-f53d-9478-6169d6442dc5.webp",
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/3831cb89-49b7-7298-9644-c409312852ca.webp",
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/682a5b40-7270-38d0-aab7-a5da79f5e82b.webp"
+        ],
+        [
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/27e8628c-dd88-a676-e2c3-89770cc64a1e.webp",
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/184dc023-f50c-f323-97b9-c81dcbcf9e9a.webp",
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/850593ff-4545-3bf4-7373-4d36751dc3d7.webp"
+        ],
+        [
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/817b6323-4c39-c9c8-2041-e4018734a5f3.webp",
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/319a9354-7c8a-42a1-8159-2f0d7786a672.webp",
+            "https://productcustomiserimagestorage.s3.eu-central-1.amazonaws.com/25efea63-34fd-c7d4-4068-0e0d43e7aefe.webp"
+        ]
+    ],
+    "currentLayerColors": {
+        "Torso": "Blau",
+        "Band": "Blau",
+        "Leder": "Beige",
+        "Innen": "Blau"
+    }
+}

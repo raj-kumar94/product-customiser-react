@@ -15,6 +15,15 @@ Currently app is divided in 3 parts:
 2. Select options/ Swatch elements
 3. Grid views (to show views in Grid format)
 
+# Using product data
+
+Shopify's Product data + configuration data gets converted into `configObject`, `sliderImages`, and `currentLayerColors`
+
+check file `utils/generatedConfigDummyData.json` to see the dummy data.
+
+- `sliderImages` is the 2D array of images to be displayed on the screen
+- `currentLayerColors` is object containing layers and their selected color
+- `configObject` contains all the info related to the configurator data
 
 TODO:
 
