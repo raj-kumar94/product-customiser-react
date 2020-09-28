@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70e9292608d20a32568e4cb416cc8ac5",
+    "revision": "94952eb9048b210b1f2c6e8ca661aac5",
     "url": "/product-customiser-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/product-customiser-react/static/css/2.9c21dc1a.chunk.css"
   },
   {
-    "revision": "6cd8cb0439f0d1cdac0a",
-    "url": "/product-customiser-react/static/css/main.4ce9dcce.chunk.css"
+    "revision": "0968d7e3a291e25c0d52",
+    "url": "/product-customiser-react/static/css/main.bb5a1277.chunk.css"
   },
   {
     "revision": "7ddf8c859d39dc716c76",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/product-customiser-react/static/js/2.b68b55c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6cd8cb0439f0d1cdac0a",
-    "url": "/product-customiser-react/static/js/main.1f90c89c.chunk.js"
+    "revision": "0968d7e3a291e25c0d52",
+    "url": "/product-customiser-react/static/js/main.f5bd0e86.chunk.js"
   },
   {
     "revision": "c887f5b9a3059b7e275c",
