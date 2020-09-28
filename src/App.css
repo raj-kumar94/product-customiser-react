@@ -4,7 +4,7 @@
 
 #customiser-slider-section {
   width: 100%;
-  height: 50vh;
+  height: 50vw;
 }
 
 .swatch-element.selected {
@@ -29,7 +29,7 @@
 
 @media (min-width: 1024px) {
   #customiser-slider-section {
-    height: 70vh;
+    height: 40vw;
   }
 }
 
