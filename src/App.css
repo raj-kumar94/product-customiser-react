@@ -12,7 +12,7 @@
 }
 
 .swatch-element.selected {
-  border: 1px solid black;
+  border: 1px solid black !important;
 }
 
 #viewGrid {
@@ -27,7 +27,7 @@
   }
 
   #customiser-slider-section {
-    height: 400px;
+    height: 70vw;
   }
 }
 

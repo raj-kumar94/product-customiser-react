@@ -16,7 +16,7 @@ function SwatchOptionProperties(props) {
                 <label data-image={property.property_obj.icon}
                     htmlFor={property._id}
                     style={{ background: `url(${property.property_obj.icon})`, backgroundPosition: "center" }}>
-                    <img className="crossed-out"
+                    <img className={property.out_of_stock ? "": "crossed-out"}
                         src="https://cdn.shopify.com/s/files/1/0306/8693/7223/t/62/assets/soldout.png?v=1203348852561544404"
                         aria-label="sold out" alt="sold out"/>
                 </label>
