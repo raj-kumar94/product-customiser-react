@@ -16,7 +16,7 @@
 }
 
 #viewGrid {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -88,4 +88,8 @@
   .slick-slide {
     margin-right: 0px;
   }
+}
+
+.slick-dots {
+  bottom: 1rem !important;
 }
