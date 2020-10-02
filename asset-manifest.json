@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/product-customiser-react/static/css/main.66b20a05.chunk.css",
+    "main.css": "/product-customiser-react/static/css/main.ac7ba95e.chunk.css",
     "main.js": "/product-customiser-react/static/js/main.ed335afd.chunk.js",
     "main.js.map": "/product-customiser-react/static/js/main.ed335afd.chunk.js.map",
     "runtime-main.js": "/product-customiser-react/static/js/runtime-main.d42969be.js",
@@ -9,10 +9,10 @@
     "static/js/2.b68b55c6.chunk.js": "/product-customiser-react/static/js/2.b68b55c6.chunk.js",
     "static/js/2.b68b55c6.chunk.js.map": "/product-customiser-react/static/js/2.b68b55c6.chunk.js.map",
     "index.html": "/product-customiser-react/index.html",
-    "precache-manifest.d56d928b6ba2994a0708bf9653861e64.js": "/product-customiser-react/precache-manifest.d56d928b6ba2994a0708bf9653861e64.js",
+    "precache-manifest.c1bb8eec047f38d0b876d9dda0425414.js": "/product-customiser-react/precache-manifest.c1bb8eec047f38d0b876d9dda0425414.js",
     "service-worker.js": "/product-customiser-react/service-worker.js",
     "static/css/2.9c21dc1a.chunk.css.map": "/product-customiser-react/static/css/2.9c21dc1a.chunk.css.map",
-    "static/css/main.66b20a05.chunk.css.map": "/product-customiser-react/static/css/main.66b20a05.chunk.css.map",
+    "static/css/main.ac7ba95e.chunk.css.map": "/product-customiser-react/static/css/main.ac7ba95e.chunk.css.map",
     "static/js/2.b68b55c6.chunk.js.LICENSE.txt": "/product-customiser-react/static/js/2.b68b55c6.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/product-customiser-react/static/media/slick.f97e3bbf.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.d42969be.js",
     "static/css/2.9c21dc1a.chunk.css",
     "static/js/2.b68b55c6.chunk.js",
-    "static/css/main.66b20a05.chunk.css",
+    "static/css/main.ac7ba95e.chunk.css",
     "static/js/main.ed335afd.chunk.js"
   ]
 }
