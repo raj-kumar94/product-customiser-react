@@ -65,9 +65,9 @@ export class SwatchOptions extends Component {
                         }
                         {/* <span className="level-one-icon icon-plus"></span>
                         <span className="level-one-icon icon-minus"></span> */}
-                        <span className="subtitle-block" style={{ visibility: 'visible' }}>Farbe: {this.props.selectedSwatch}</span>
+                        <span className="subtitle-block" style={{ visibility: 'visible' }}>Color: {this.props.selectedSwatch}</span>
                     </h1>
-                    <div className="prod-accordion-content" name={`dropdown_custom_${layer.layer_obj._id}`}
+                    <div className="prod-accordion-content"
                         id={`dropdown_custom_${layer.layer_obj._id}`} data-layer-id={layer.layer_obj._id}
                         style={{ display: display }}>
                         <div className="swatch_options">
@@ -82,7 +82,7 @@ export class SwatchOptions extends Component {
                             {/* end repetitive block */}
 
                         </div>
-                        <span className="subtitle-block">Farbe: {this.props.selectedSwatch}</span>
+                        <span className="subtitle-block">Color: {this.props.selectedSwatch}</span>
                     </div>
                 </div>
             // </div>

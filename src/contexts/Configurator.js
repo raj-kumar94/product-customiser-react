@@ -1,6 +1,6 @@
 import React, { createContext, Component } from 'react';
 // import productData from "../utils/productDummyData.json";
-import productData from "../utils/productDummyData2.json";
+import productData from "../utils/productDummyData3.json";
 
 export const ConfiguratorContext = createContext();
 
