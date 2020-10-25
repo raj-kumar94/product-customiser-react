@@ -1,3 +1,5 @@
+Demo: https://raj-kumar94.github.io/product-customiser-react/
+
 # Steps:
 
 1. Clone the rep
